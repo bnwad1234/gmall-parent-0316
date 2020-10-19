@@ -1,0 +1,15 @@
+
+spring.cloud.nacos.config.server-addr=192.168.222.2:8848
+
+# 发布服务的环境(命名空间)
+spring.cloud.nacos.discovery.namespace=836fc8f6-8160-45a6-943c-831988c3572b
+
+# nacos配置环境(命名空间)
+spring.cloud.nacos.config.namespace=836fc8f6-8160-45a6-943c-831988c3572b
+
+# 在bootstrap中，如果没有配置config.name，则application.name代替config.name作为配置应用名
+spring.cloud.nacos.config.name=service-test
+
+# 代理名
+spring.application.name=service-test
+
